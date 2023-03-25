@@ -1,12 +1,12 @@
 package application;
 
+import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Program {
 	public static void main(String[] args) {
-		// TreeSet<> - mais lento  e ordenado pelo comparaTo do objeto
-		Set<String> set = new TreeSet<>();
+		// LinkedHashSet<> - intermediário  e na ordem em que foram adicionados
+		Set<String> set = new LinkedHashSet<>();
 		
 		set.add("Tv");
 		set.add("Tablet");
